@@ -1,0 +1,109 @@
+/*
+Paleta de colores:
+#5F0087 morado oscuro
+#BA19FF morado claro
+#9400D3 morado normal
+#cda4f3 morado más claro
+
+#638700 verde oscuro
+#9BD400 verde claro
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+article {
+    background-color:beige;
+    padding-bottom: 3em;
+}
+
+form {
+    margin: 0 auto;
+    width: 40%;
+}
+
+legend {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+form>section {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75em;
+    border-top: 0;
+}
+
+label {
+    padding: 0.75em;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu_tmp {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+th {
+    padding: 0.5em;
+}
+
+td img{
+    width: 30%;
+}
+
+td {
+    width: calc(100% / 3);
+}
+
+.menu {
+    background-color:rgb(124, 124, 114);
+}
+
+.menu section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu img {
+    width: 5em;
+}
+
+.menu p{
+    margin-bottom: 0;
+}
+
+.listado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
